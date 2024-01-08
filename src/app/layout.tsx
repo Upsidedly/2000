@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-cursive bg-upsided bg-repeat bg-[length:100px_100px] overflow-x-clip">
         {children}
         <footer className="bottom-1 fixed flex w-screen flex-row justify-center">
-          <img src="/best_ns.gif"></img>
+          <img src="/best_ns.gif" alt="Best viewed on Netscape"></img>
         </footer>
         <p>hi</p>
       </body>
