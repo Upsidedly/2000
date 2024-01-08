@@ -10,7 +10,7 @@ export default function Home() {
           </filter>
         </defs>
       </svg>
-      <h1 className="text-5xl font-bold text-yellow-300 text-center mb-8" style={{ filter: 'url(#crispify)' }}>upsided&apos;s website</h1>
+      <h1 className="text-5xl font-bold text-yellow-300 text-center mb-8" style={{ filter: 'url(#crispify)' }}>upsided&apos;s website <img className="h-[1em] inline" src="/jamrock.gif" alt="Jamaican flag" /></h1>
       <div className="flex flex-row gap-1 mb-8">
         <a className="w-20" href="https://github.com/Upsidedly" target="_blank">
           <img src="/github.gif" alt="github" />
