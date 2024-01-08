@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="flex flex-col items-center p-24 gap-2">
@@ -12,7 +10,7 @@ export default function Home() {
           </filter>
         </defs>
       </svg>
-      <h1 className="text-5xl font-bold text-yellow-300 text-center mb-8" style={{ filter: 'url(#crispify)' }}>upsided's website</h1>
+      <h1 className="text-5xl font-bold text-yellow-300 text-center mb-8" style={{ filter: 'url(#crispify)' }}>upsided&apos;s website</h1>
       <div className="flex flex-row gap-1 mb-8">
         <a className="w-20" href="https://github.com/Upsidedly" target="_blank">
           <img src="/github.gif" alt="github" />
@@ -24,6 +22,7 @@ export default function Home() {
           <img src="/twitterbutton.gif" alt="twitter" />
         </a>
       </div>
+
       <img src="/saturn.gif" alt="saturn" />
     </main>
   );
