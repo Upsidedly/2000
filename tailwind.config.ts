@@ -16,7 +16,7 @@ const config: Config = {
       },
 
       fontFamily: {
-        'cursive': 'cursive',
+        'cursive': '"Comic Sans"',
         'times': '"Times New Roman"'
       }
     },
